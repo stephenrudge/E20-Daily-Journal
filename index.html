@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
     <title>Daily Journal</title>
+    <script type="module" src="scripts/main.js"></script>
 </head>
+
 <body>
-    <header>    </header>
-    <main> 
-        <div class="tenor-gif-embed" data-postid="25519465" data-share-method="host" data-aspect-ratio="2.5" data-width="100%"><a href="https://tenor.com/view/welcome-wagon-oregon-trail-gif-25519465">Welcome Wagon GIF</a>from <a href="https://tenor.com/search/welcome-gifs">Welcome GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"> innerHeight</script>
+    <header> </header>
+    <main>
+        <div class="tenor-gif-embed" data-postid="25519465" data-share-method="host" data-aspect-ratio="2.5"
+            data-width="100%"><a href="https://tenor.com/view/welcome-wagon-oregon-trail-gif-25519465">Welcome Wagon
+                GIF</a>from <a href="https://tenor.com/search/welcome-gifs">Welcome GIFs</a></div>
+        <script type="text/javascript" async src="https://tenor.com/embed.js"> innerHeight</script>
         <h2>Daily Journal</h2>
         <label id="container">
-        <form class="entryForm">
-            <fieldset>
-                <label for="entryDate">Date</label>
-                <input type="date" name="entryDate" class="entryForm__date">
-            </fieldset>
-        </form>
-        <main id="container">
-            <form class="entryForm">
-                <fieldset>
-                    <label for="entryDate">Date of Entry</label>
-                    <input type="date" name="entryDate" class="entryForm__date">
-                </fieldset>
-            </form>
-        <main id="container">
-            <form class="conceptsCovered">
-                <fieldset>  
-                    <text> Concepts Covered</text>
-                        <input>
+            <main id="container1">
+                <form class="entryForm">
+                    <fieldset>
+                        <label for="entryDate">Date of Entry</label>
+                        <input type="date" name="entryDate" class="entryForm__date">
+                    </fieldset>
+                </form>
+                <main id="container2">
+                    <form class="conceptsCovered">
+                        <fieldset>
+                            <text> Concepts Covered</text>
+                            <input>
 
-                </input>
-                </fieldset>
-            </form>
+                            </input>
+                        </fieldset>
+                    </form>
 
-        </main>
-        <main id="container">
-            <form class="Journal entry">
-                <fieldset>  
-                    <text> Journal Entry</text>
-                        <textarea>
+                </main>
+                <main id="container3">
+                    <form class="Journal entry">
+                        <fieldset>
+                            <text> Journal Entry</text>
+                            <textarea>
 
                         </textarea>
 
-                </fieldset>
-            </form>
-            <main id="container">
-                <form class="mood">
-                    <fieldset>  
-                        <label for="mood">Mood for the Day:</label>
-
-                        <select name="cars" id="cars">
-                            <option value="happy">Happy</option>
-                            <option value="sad">Sad</option>
-                            <option value="frustrated">frustrated</option>
-                            <option value="excited">Excited!</option>
-                    </select>    
-                </fieldset>
-                </form>
-                <main id="container">
-                    <form class="button">
-                        <fieldset>  
-                            <label for="button"></label>
-                            <button type="button"> Submit Journal Entry</button>                    </fieldset>
+                        </fieldset>
                     </form>
-    <footer>    </footer>
-    <article id="entries"></article>
-            </main>
+                    <main id="container4">
+                        <form class="mood">
+                            <fieldset>
+                                <label for="mood">Mood for the Day:</label>
 
+                                <select name="cars" id="cars">
+                                    <option value="happy">Happy</option>
+                                    <option value="sad">Sad</option>
+                                    <option value="frustrated">frustrated</option>
+                                    <option value="excited">Excited!</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                        <main id="container5">
+                            <form class="button">
+                                <fieldset>
+                                    <label for="button"></label>
+                                    <button type="button"> Submit Journal Entry</button>
+                                </fieldset>
+                            </form>
+                            <footer> </footer>
+                            <div class= "Previous Entries";><h3>Previous Entries</h3></div> 
+                            <article id="entries"></article>
+                        </main>
+                    </main>
+                </main>
+            </main>
+        </label>
+    </main>
+    
+    <script type="module" src="./scripts/main.js"></script>
 </body>
+
 </html>

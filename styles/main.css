@@ -3,3 +3,22 @@ body{
     color: #73F04C;
     font-family: pix;
 }
+.journalEntry{
+    width: 200px;
+    /* background-color: blanchedalmond; */
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 3%;
+    padding: 5px 20px;
+
+ 
+}
+#entries{
+    /* margin: 10px; */
+    border: 1px solid white;
+    border-radius: 3%;
+    padding: 5px 20px;
+    display: flex;  
+    flex-wrap:wrap;
+ 
+}
