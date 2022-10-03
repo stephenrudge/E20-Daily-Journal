@@ -1,8 +1,11 @@
-import {addNewEntry, getEntries} from './entries.js'
+import { getEntries, sendEntries, fetchEntries } from './entries.js'
 
-const displayJournalEntries = () =>{
+
+
+const displayJournalEntries = async ()  =>{
+    await fetchEntries()
     const journalEntries = getEntries()
-    
+    console.log(journalEntries)
     let html = "";
 
     for(let i = 0; i <journalEntries.length; i++){
@@ -33,13 +36,12 @@ document.addEventListener("click", (event) =>{
 dateEntered = dateEntered.toLocaleDateString()
  
 const newQuote = {
-            id: 1,
             dateOfEntry: dateEntered,
             typesOfTravel: typesOfTravel,
             journalEntry: journalEntry,
             moodForTheDay: moodForTheDay,   
         }
-              addNewEntry(newQuote)
+              sendEntries(newQuote) 
     }
 });
 
