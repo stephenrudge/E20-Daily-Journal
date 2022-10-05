@@ -22,3 +22,31 @@ body{
     flex-wrap:wrap;
  
 }
+.tenor-gif-embed{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin:auto;
+
+}
+img{
+    width: 75%;
+}
+input{
+    background-color: black;
+    color: #72F04C
+}
+#cars{
+    background-color: black;
+    color: #72F04C
+}
+
+#submitNewQuote{
+    
+    background-color: black;
+    color: #72F04C
+}
+::placeholder{
+    background-color: black;
+    color: #72F04C
+}
