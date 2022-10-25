@@ -31,15 +31,3 @@ export const fetchEntries = async () => {
         const responseJson = await response.json()
         document.dispatchEvent(new CustomEvent("stateChanged"))
     }
-
-    // const getNewEntryId = () => {
-    //     let highestEntryId = journalEntries.sort((a, b) => b.id - a.id)[0].id
-    //     return highestEntryId + 1
-    // }
-    
-    // export const addNewEntry = (entry) => {
-    //     fetch(`${API}/entries`)
-        // document.dispatchEvent(new CustomEvent("stateChanged"))
-    
-    //   }
-        // document.dispatchEvent(new CustomEvent("stateChanged"))
